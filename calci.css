@@ -1,0 +1,43 @@
+body {
+    background-color: #ABC270;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wrap {
+    background-color: skyblue;
+    width: 400px;
+    margin:auto;
+    height: auto;   
+    padding: 15px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input[type=button] {
+    width: 85px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+#operator {
+    background-color: yellow;
+}
+#clear {
+    background-color: #FA4659;
+}
+#num {
+    background-color: #FAF1E6;
+}
+#display {
+    background-color: #FCF9EA;
+}
